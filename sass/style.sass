@@ -1,0 +1,251 @@
+
+$font-Manrope: 'Manrope', sans-serif
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+a
+    text-decoration: none
+    list-style-type: none
+    cursor: pointer
+    color: white
+
+li
+    text-decoration: none
+    list-style-type: none
+
+img
+    width: 100%
+
+body
+    background: #141414
+
+.delimiter1
+    margin-bottom: 30px
+
+.delimiter2
+    margin-bottom: 30px
+
+.delimiter3
+    margin-bottom: 30px
+
+.delimiter4
+    margin-bottom: 30px
+
+.delimiter5
+    margin-bottom: 30px
+
+.wrapper
+    max-width: 100%
+    margin: 0 auto
+    padding: 0 40px
+    padding-top: 40px
+    padding-bottom: 10px
+
+.container
+    margin: 0 auto
+    max-width: 1360px
+
+.header
+
+    background: linear-gradient(20deg, #BB2C25 0%, #601B17 48.40%, #0F0E0E 100%), linear-gradient(90deg, #111 0%, rgba(5, 15, 20, 0.00) 100%)
+    border-radius: 32px
+    padding-top: 46px
+    padding-left: 58px
+    padding-right: 56px
+    padding-bottom: 82px
+
+.heade-navi
+    display: flex
+    justify-content: space-between
+    padding-left: 54px
+    padding-right: 67px
+    padding-bottom: 48px
+
+.header_logo
+    font-family: $font-Manrope
+    font-weight: 600
+    font-size: 14px
+
+.menu
+    text-align: center
+    display: flex
+    justify-content: space-between
+    padding-top: 10px
+.nav_menu
+    font-family: $font-Manrope
+    font-weight: 640
+    font-size: 20px
+    display: flex
+    justify-content: space-between
+    color: white
+
+.list_menu:not(:last-child)
+    padding-right: 37px
+
+.hr-line
+    height: 1px
+    border: none
+    border-top: 1px solid #A9A9A9
+    width: 1200px
+    border-top: 1px solid #A9A9A9
+    position: relative
+    left: 23px
+
+.section
+    display: flex
+    justify-content: space-between
+    padding-top: 50px
+
+.content_left
+    display: flex
+    flex-direction: column
+    padding-left: 54px
+    line-height: 69px
+.text
+    font-family: $font-Manrope
+    font-weight: 500
+    font-size: 64px
+    color: white
+    letter-spacing: -0.9px
+    padding-bottom: 58px
+    padding-left: 29px
+
+.button
+    display: flex
+
+.but
+    font-family: $font-Manrope
+    font-size: 18px
+    font-weight: 600
+    height: 61px
+    border-radius: 14px
+
+.btn1
+    padding: 17px 39px 26px 45px
+    background-color: white
+    color: #252525
+    margin-right: 18px
+.btn2
+    padding: 15px 45px
+    background-color: #601B17
+    color: white
+
+.content_right
+    padding-top: 38px
+
+.advantages
+    background-color: white
+    border-radius: 32px
+    padding-top: 80px
+    // padding-bottom: 117px
+    padding-bottom: 65px
+
+.advantages__title
+    color: #6E6E6E
+    font-family: $font-Manrope
+    font-size: 48px
+    font-weight: 600
+    text-align: center
+    margin-bottom: 42px
+
+.advantages__description
+    display: flex
+    padding: 0 38px
+    justify-content: flex-start
+
+.description__img
+    // padding-top: 32px
+    // margin-right: 63px
+    background-image: url(..//img/map.svg)
+    background-repeat: no-repeat
+    background-position: center center
+    // width: 86%
+    width: 82%
+    position: relative
+    top: -29px
+    margin-right: 33px
+.list__item
+    // align-content: center
+    display: flex
+    // align-items: center
+    color: #494949
+    font-family: $font-Manrope
+    font-size: 28px
+    font-weight: 500
+    // line-height: 39.2px
+    line-height: 37.2px
+    margin-bottom: 43px
+    letter-spacing: 0
+
+    &::before
+        content: ""
+        display: block
+        // width: 100%
+        width: 18%
+        height: 38px
+        // height: 34px
+        background-image: url(../img/radio-check.svg)
+        position: relative
+        // left: -10px
+        left: -5px
+        background-repeat: no-repeat
+        background-position: center center
+
+.acquaintance
+    background: linear-gradient(60deg, rgba(30, 30, 30, 0.81) 0%, rgba(174, 39, 32, 0.94) 54.63%, rgba(30, 30, 30, 0.68) 100%)
+    padding-top: 74px
+    padding-left: 141px
+    padding-bottom: 185px
+    border-radius: 33px
+    
+.acquaintance__title
+    font-family: $font-Manrope
+    font-size: 56px
+    font-weight: 600
+    color: #FFF
+    line-height:  61.6px 
+    padding-bottom: 100px
+
+
+.acquaintance__biography
+    color: #FFF
+    font-family: $font-Manrope
+    font-size: 48px
+    font-weight: 400
+    line-height: 52.8px 
+    display: flex
+    justify-content: flex-start
+    padding-left: 39px
+    // &::before
+    //     content: ""
+    //     display: block
+    //     width: 18%
+    //     height: 50px
+    //     background-image: url(../img/arrow-left.svg)
+    //     position: relative
+    //     left: -136px
+    //     bottom: 20px
+    //     background-repeat: no-repeat
+    //     background-position: center center
+
+
+.s1-prev, .s1-next
+    position: absolute
+    top: 68.39%
+
+
+// .s1-prev:hover path clicpath
+
+.s1-prev    
+    left: 137px
+
+.s2-prev, .s2-next
+    position: absolute
+    top: 68.39%
+    
+.swiper-button-next, .swiper-rtl .swiper-button-prev
+    right: 138px
+    left: auto
